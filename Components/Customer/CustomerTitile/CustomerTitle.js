@@ -1,7 +1,7 @@
 export default function CustomerTitle() {
   return (
     <>
-      <div className="customer">
+      {/* <div className="customer">
         <div className="row">
           <div className="col-xl-12">
             <div className="sc-fb9f1326-0 TnemY d-sm-flex align-items-center justify-content-between">
@@ -14,7 +14,7 @@ export default function CustomerTitle() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

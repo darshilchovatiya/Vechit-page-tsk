@@ -1,10 +1,6 @@
 import { useState } from "react";
 import {
-  Button,
-  Dropdown,
-  DropdownItem,
-  DropdownMenu,
-  DropdownToggle,
+  Button
 } from "reactstrap";
 
 export default function CustomerMainCard() {
@@ -13,6 +9,16 @@ export default function CustomerMainCard() {
   const toggle = () => setDropdownOpen((prevState) => !prevState);
   return (
     <>
+      <div className="customer">
+        <div className="row">
+          <div className="col-xl-12">
+            <div className="sc-fb9f1326-0 TnemY d-sm-flex align-items-center justify-content-between">
+              <h6 className="sc-fb9f1326-1 izPFRb mb-sm-0">CUSTOMER</h6>
+              <div className="sc-fb9f1326-2 jncgKT page-title-right"></div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="card">
         <div className="card-header custcard">
           <div className="w-25 mb-3">
