@@ -112,6 +112,11 @@ input#search {
   .profile-text {
     line-height: 16px;
   }
+
+  button.pro.dropdown-item {
+    width: auto;
+    font-weight: 400;
+  }
 }
 
 /* sidebarmain  */
@@ -388,9 +393,7 @@ label {
   cursor: pointer;
 }
 
-/* .dropdown.\32 {
-  height: 30px;
-} */
+
 .custom-dropdown.dropdown {
   height: 22px;
 }

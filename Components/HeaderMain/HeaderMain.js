@@ -42,8 +42,8 @@ export default function HeaderMain() {
               <DropdownToggle color="white">
                 <img src="/userProfile.jpeg"></img>
               </DropdownToggle>
-              <DropdownMenu color="white">
-                <DropdownItem>
+              <DropdownMenu  color="white">
+                <DropdownItem className="pro" >
                   <div className="line1">
                     <div className="proicon">
                       <Icon icon="iconamoon:profile-circle" />
@@ -51,7 +51,7 @@ export default function HeaderMain() {
                     My Profile
                   </div>
                 </DropdownItem>
-                <DropdownItem>
+                <DropdownItem className="pro">
                   <div className="line1">
                     <div className="proicon">
                       <Icon icon="mdi:logout" />
