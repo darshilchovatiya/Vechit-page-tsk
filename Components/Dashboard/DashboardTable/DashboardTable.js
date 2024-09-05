@@ -116,9 +116,7 @@ export default function DashboardTable() {
           </div>
         </div>
       ),
-      style: {
-        // justifyContent: "center",
-      },
+
       minWidth: "330px",
       maxWidth: "100px",
     },
@@ -144,8 +142,8 @@ export default function DashboardTable() {
       customername: "Kusum Modhvadia",
       price: "£ 4.55",
       orderplace: "02 Aug 2024",
-      orderstatus: <Badge color="success">Complete</Badge>,
-      paymentstatus: <Badge color="success">Success</Badge>,
+      orderstatus: <Badge color="success 4">Complete</Badge>,
+      paymentstatus: <Badge color="success 4">Success</Badge>,
       itemimages: "/td1.jpeg",
       itemimagesa: "/td2.jpeg",
     },
@@ -155,8 +153,8 @@ export default function DashboardTable() {
       customername: "John Wick",
       price: "£ 5.77",
       orderplace: "02 Aug 2024",
-      orderstatus: <Badge color="success">Complete</Badge>,
-      paymentstatus: <Badge color="success">Success</Badge>,
+      orderstatus: <Badge color="success 4">Complete</Badge>,
+      paymentstatus: <Badge color="success 4">Success</Badge>,
       itemimages: "/item2.jpeg",
       itemimagesa: "/item3.jpeg",
     },

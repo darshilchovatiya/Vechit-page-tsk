@@ -10,13 +10,13 @@ export default function DashboardOrderCard() {
           <h5>ORDERS</h5>
           <div className="col-sm-4">
             <div className="ordercard card">
-              <div class="card-body">
+              <div className="card-body">
                 <span className="carticon">
                   <Icon icon="bi:cart" />
                 </span>
-                <div class="sc-fb9f1326-95 faIsE">TODAYS ORDERS</div>
-                <div class="sc-fb9f1326-96 boSfkV">0</div>
-                <div class="sc-fb9f1326-97 fTzkJG">Total orders for today</div>
+                <div className="sc-fb9f1326-95 faIsE">TODAYS ORDERS</div>
+                <div className="sc-fb9f1326-96 boSfkV">0</div>
+                <div className="sc-fb9f1326-97 fTzkJG">Total orders for today</div>
                 <Progress className="my-3" />
               </div>
             </div>
@@ -24,13 +24,13 @@ export default function DashboardOrderCard() {
 
           <div className="col-sm-4">
             <div className="ordercard card">
-              <div class="card-body">
+              <div className="card-body">
                 <span className="carticon">
                   <Icon icon="lucide:book-audio" />
                 </span>
-                <div class="sc-fb9f1326-95 faIsE">ORDERS FOR THE MONTH</div>
-                <div class="sc-fb9f1326-96 boSfkV">90</div>
-                <div class="sc-fb9f1326-97 fTzkJG">
+                <div className="sc-fb9f1326-95 faIsE">ORDERS FOR THE MONTH</div>
+                <div className="sc-fb9f1326-96 boSfkV">90</div>
+                <div className="sc-fb9f1326-97 fTzkJG">
                   Total orders for last month
                 </div>
                 <Progress
@@ -46,13 +46,13 @@ export default function DashboardOrderCard() {
 
           <div className="col-sm-4">
             <div className="ordercard card">
-              <div class="card-body">
+              <div className="card-body">
                 <span className="carticon">
                   <Icon icon="lets-icons:order" />
                 </span>
-                <div class="sc-fb9f1326-95 faIsE">TOTAL ORDERS</div>
-                <div class="sc-fb9f1326-96 boSfkV">382</div>
-                <div class="sc-fb9f1326-97 fTzkJG">Total orders</div>
+                <div className="sc-fb9f1326-95 faIsE">TOTAL ORDERS</div>
+                <div className="sc-fb9f1326-96 boSfkV">382</div>
+                <div className="sc-fb9f1326-97 fTzkJG">Total orders</div>
                 <Progress
                   animated
                   className="my-3"
@@ -67,13 +67,13 @@ export default function DashboardOrderCard() {
           <h5>CUSTOMERS</h5>
           <div className="col-sm-4">
             <div className="ordercard card">
-              <div class="card-body">
+              <div className="card-body">
                 <span className="carticon">
                   <Icon icon="fluent-emoji:headphone" />
                 </span>
-                <div class="sc-fb9f1326-95 faIsE">CUSTOMERS TODAY</div>
-                <div class="sc-fb9f1326-96 boSfkV">0</div>
-                <div class="sc-fb9f1326-97 fTzkJG">
+                <div className="sc-fb9f1326-95 faIsE">CUSTOMERS TODAY</div>
+                <div className="sc-fb9f1326-96 boSfkV">0</div>
+                <div className="sc-fb9f1326-97 fTzkJG">
                   Total customers for today
                 </div>
                 <Progress className="my-3" />
@@ -83,13 +83,13 @@ export default function DashboardOrderCard() {
 
           <div className="col-sm-4">
             <div className="ordercard card">
-              <div class="card-body">
+              <div className="card-body">
                 <span className="carticon">
                   <Icon icon="simple-line-icons:calender" />
                 </span>
-                <div class="sc-fb9f1326-95 faIsE">CUSTOMERS FOR THE MONTH</div>
-                <div class="sc-fb9f1326-96 boSfkV">24</div>
-                <div class="sc-fb9f1326-97 fTzkJG">
+                <div className="sc-fb9f1326-95 faIsE">CUSTOMERS FOR THE MONTH</div>
+                <div className="sc-fb9f1326-96 boSfkV">24</div>
+                <div className="sc-fb9f1326-97 fTzkJG">
                   Total customers for last month
                 </div>
                 <Progress
@@ -105,13 +105,13 @@ export default function DashboardOrderCard() {
 
           <div className="col-sm-4">
             <div className="ordercard card">
-              <div class="card-body">
+              <div className="card-body">
                 <span className="carticon">
                   <Icon icon="fluent-mdl2:connect-contacts" />
                 </span>
-                <div class="sc-fb9f1326-95 faIsE">TOTAL CUSTOMERS</div>
-                <div class="sc-fb9f1326-96 boSfkV">183</div>
-                <div class="sc-fb9f1326-97 fTzkJG">Total customers</div>
+                <div className="sc-fb9f1326-95 faIsE">TOTAL CUSTOMERS</div>
+                <div className="sc-fb9f1326-96 boSfkV">183</div>
+                <div className="sc-fb9f1326-97 fTzkJG">Total customers</div>
                 <Progress
                   animated
                   className="my-3"

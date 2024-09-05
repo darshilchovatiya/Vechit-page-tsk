@@ -19,7 +19,7 @@ export default function HeaderMain() {
             name="search"
             placeholder="Looks orders by ID, Service item or Customer name"
             type="text"
-            class="mainSearch form-control"
+            className="mainSearch form-control"
             fdprocessedid="3m654q"
           />
           <span className="searchicon">
@@ -63,9 +63,9 @@ export default function HeaderMain() {
               </DropdownMenu>
             </UncontrolledDropdown>
 
-            <div class="profile-text">
-              <div class="name">darshil Chovatiya</div>
-              <div class="position">Admin</div>
+            <div className="profile-text">
+              <div className="name">darshil Chovatiya</div>
+              <div className="position">Admin</div>
             </div>
           </div>
         </div>

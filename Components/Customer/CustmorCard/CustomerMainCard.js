@@ -15,8 +15,8 @@ export default function CustomerMainCard() {
     <>
       <div className="card">
         <div className="card-header custcard">
-          <div class="w-25 mb-3">
-            <label for="search1" class="form-label">
+          <div className="w-25 mb-3">
+            <label for="search1" className="form-label">
               Search
             </label>
             <input
@@ -24,12 +24,12 @@ export default function CustomerMainCard() {
               name="search"
               placeholder="customer name"
               type="text"
-              class="form-control"
+              className="form-control"
               fdprocessedid="3m654q"
             />
           </div>
-          <div class="w-25 mb-3">
-            <label for="From_Date" class="form-label">
+          <div className="w-25 mb-3">
+            <label for="From_Date" className="form-label">
               From Date
             </label>
             <input
@@ -37,11 +37,11 @@ export default function CustomerMainCard() {
               name="date"
               placeholder="From Date"
               type="date"
-              class="form-control"
+              className="form-control"
             />
           </div>
-          <div class="w-25 mb-3">
-            <label for="To_Date" class="form-label">
+          <div className="w-25 mb-3">
+            <label for="To_Date" className="form-label">
               To Date
             </label>
             <input
@@ -49,7 +49,7 @@ export default function CustomerMainCard() {
               name="date"
               placeholder="date placeholder"
               type="date"
-              class="form-control"
+              className="form-control"
             />
           </div>
           <div className="w-2 mb-3">
@@ -57,12 +57,12 @@ export default function CustomerMainCard() {
               Status
             </label>
             <div className="customerdropdown">
-              <div class="col-xl-6">
-                <div class="mb-3 mb-3">
+              <div className="col-xl-6">
+                <div className="mb-3 mb-3">
                   <select
                     id="status"
                     name="status"
-                    class="custdrop"
+                    className="custdrop"
                     fdprocessedid="tcm4xr"
                   >
                     <option value="All">All</option>

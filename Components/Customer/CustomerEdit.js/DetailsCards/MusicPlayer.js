@@ -7,9 +7,7 @@ import ModalPage from "../../../Modal/ModalPage";
 
 const customStyles = {
   rows: {
-    style: {
-      // height: "60px",
-    },
+    style: {},
   },
   headCells: {
     style: {
@@ -18,7 +16,6 @@ const customStyles = {
       border: "1px solid #f1f1f1",
       backgroundColor: "#f8f9fb",
       color: "gray",
-      //   justifyContent: "center",
     },
   },
   cells: {
@@ -88,10 +85,8 @@ export default function MusicPlayer() {
     {
       name: "Music Play",
       selector: (row) => (
-        <div className="verifybtn">
-          <Button color="success">
-            <Icon icon="icon-park-solid:correct" width="1rem" height="1rem" />
-          </Button>
+        <div>
+          <Button color="info">Play</Button>
         </div>
       ),
       style: {

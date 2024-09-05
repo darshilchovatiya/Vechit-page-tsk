@@ -296,6 +296,12 @@ span.badge.bg-success {
   font-size: 11px;
 }
 
+span.badge.bg-success.\34 {
+  height: 20px;
+  width: 75px;
+  font-size: 11px;
+}
+
 span.badge.bg-danger {
   height: 20px;
   width: 75px;
@@ -352,7 +358,6 @@ span.badge.bg-secondary {
 }
 
 .card-header {
-  /* height: 160px; */
   display: flex;
   gap: 1rem;
   align-items: center;
@@ -372,8 +377,8 @@ label {
 }
 
 .custdrop {
-  height: 33px;
-  width: 230px;
+  height: 38px;
+  width: 270px;
   font-size: 17px;
   margin: 10px 0 0 0;
   background-color: black;
@@ -478,7 +483,6 @@ button.btn.btn-danger {
 }
 
 .imgitem {
-
   display: flex;
   -webkit-box-align: center;
   align-items: center;
@@ -507,6 +511,7 @@ button.btn.btn-danger {
   position: absolute;
   top: 0px;
   right: 0px;
+  cursor: pointer;
 }
 
 .col-xl-6 {
@@ -570,6 +575,16 @@ button.btn.btn-success {
   }
 }
 
+button.btn.btn-info {
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 13px;
+  background-color: #70ace8;
+  border: 0;
+}
+
 .dUEYLC {
   border: 0px;
   padding: 10px 15px;
@@ -606,13 +621,14 @@ button.btn.btn-success {
 
 .siteimg {
   height: 220px;
+  width: 354px;
+  border: 2px dashed rgb(204, 204, 204);
 }
 
 .siteimgbox {
   width: 350px;
-  height: 220px;
+  height: 215px;
   position: relative;
-  border: 2px dashed rgb(204, 204, 204);
 }
 
 /* emailtemplatepage */

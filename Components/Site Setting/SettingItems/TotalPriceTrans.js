@@ -145,7 +145,7 @@ export default function TotalPriceTrans() {
     {
       id: 1,
       itmscost: (
-        <div class="sc-fb9f1326-27 dKfzgF userAvtar px-1">
+        <div className="sc-fb9f1326-27 dKfzgF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -155,13 +155,13 @@ export default function TotalPriceTrans() {
             name="item_cost"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="1"
           />
         </div>
       ),
       limit: (
-        <div class="sc-fb9f1326-27 dKfzgF userAvtar px-1">
+        <div className="sc-fb9f1326-27 dKfzgF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -171,14 +171,14 @@ export default function TotalPriceTrans() {
             name="item_cost_limit"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="1.99"
             fdprocessedid="3qpokx"
           />
         </div>
       ),
       transactionpercentage: (
-        <div class="sc-fb9f1326-27 iXqgxr userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgxr userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -187,12 +187,12 @@ export default function TotalPriceTrans() {
             id="mangopay_transaction_fee_percentage"
             name="mangopay_transaction_fee_percentage"
             type="number"
-            class="form-control"
+            className="form-control"
           />
         </div>
       ),
       transactionfee: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -201,12 +201,12 @@ export default function TotalPriceTrans() {
             id="mangoPay_transaction_fee"
             name="mangoPay_transaction_fee"
             type="number"
-            class="form-control"
+            className="form-control"
           />
         </div>
       ),
       totalfees: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -215,13 +215,13 @@ export default function TotalPriceTrans() {
             name="mangopay_total_fees"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.22"
           />
         </div>
       ),
       transactionfeepercentage: (
-        <div class="sc-fb9f1326-27 iXqgzi userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgzi userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -230,13 +230,13 @@ export default function TotalPriceTrans() {
             id="vechit_transaction_fee_percentage"
             name="vechit_transaction_fee_percentage"
             type="number"
-            class="form-control"
+            className="form-control"
             //   value="30"
           />
         </div>
       ),
       vechittransactionfee: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -246,13 +246,13 @@ export default function TotalPriceTrans() {
             name="vechit_transaction_fee"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.3"
           />
         </div>
       ),
       vechittotalfees: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -261,13 +261,13 @@ export default function TotalPriceTrans() {
             name="vechit_total_fees"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.52"
           />
         </div>
       ),
       costtobuyerincfees: (
-        <div class="sc-fb9f1326-27 iXqgyF userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgyF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -276,7 +276,7 @@ export default function TotalPriceTrans() {
             id="total_cost_to_buyer_inc_fees"
             name="total_cost_to_buyer_inc_fees"
             type="number"
-            class="form-control"
+            className="form-control"
             value="1.52"
           />
         </div>
@@ -285,7 +285,7 @@ export default function TotalPriceTrans() {
     {
       id: 2,
       itmscost: (
-        <div class="sc-fb9f1326-27 dKfzgF userAvtar px-1">
+        <div className="sc-fb9f1326-27 dKfzgF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -295,13 +295,13 @@ export default function TotalPriceTrans() {
             name="item_cost"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="2"
           />
         </div>
       ),
       limit: (
-        <div class="sc-fb9f1326-27 dKfzgF userAvtar px-1">
+        <div className="sc-fb9f1326-27 dKfzgF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -311,14 +311,14 @@ export default function TotalPriceTrans() {
             name="item_cost_limit"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="1.99"
             fdprocessedid="3qpokx"
           />
         </div>
       ),
       transactionpercentage: (
-        <div class="sc-fb9f1326-27 iXqgxr userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgxr userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -327,12 +327,12 @@ export default function TotalPriceTrans() {
             id="mangopay_transaction_fee_percentage"
             name="mangopay_transaction_fee_percentage"
             type="number"
-            class="form-control"
+            className="form-control"
           />
         </div>
       ),
       transactionfee: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -341,12 +341,12 @@ export default function TotalPriceTrans() {
             id="mangoPay_transaction_fee"
             name="mangoPay_transaction_fee"
             type="number"
-            class="form-control"
+            className="form-control"
           />
         </div>
       ),
       totalfees: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -355,13 +355,13 @@ export default function TotalPriceTrans() {
             name="mangopay_total_fees"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.22"
           />
         </div>
       ),
       transactionfeepercentage: (
-        <div class="sc-fb9f1326-27 iXqgzi userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgzi userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -370,13 +370,13 @@ export default function TotalPriceTrans() {
             id="vechit_transaction_fee_percentage"
             name="vechit_transaction_fee_percentage"
             type="number"
-            class="form-control"
+            className="form-control"
             //   value="30"
           />
         </div>
       ),
       vechittransactionfee: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -386,13 +386,13 @@ export default function TotalPriceTrans() {
             name="vechit_transaction_fee"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.3"
           />
         </div>
       ),
       vechittotalfees: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -401,13 +401,13 @@ export default function TotalPriceTrans() {
             name="vechit_total_fees"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.52"
           />
         </div>
       ),
       costtobuyerincfees: (
-        <div class="sc-fb9f1326-27 iXqgyF userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgyF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -416,7 +416,7 @@ export default function TotalPriceTrans() {
             id="total_cost_to_buyer_inc_fees"
             name="total_cost_to_buyer_inc_fees"
             type="number"
-            class="form-control"
+            className="form-control"
             value="1.52"
           />
         </div>
@@ -425,7 +425,7 @@ export default function TotalPriceTrans() {
     {
       id: 3,
       itmscost: (
-        <div class="sc-fb9f1326-27 dKfzgF userAvtar px-1">
+        <div className="sc-fb9f1326-27 dKfzgF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -435,13 +435,13 @@ export default function TotalPriceTrans() {
             name="item_cost"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="3"
           />
         </div>
       ),
       limit: (
-        <div class="sc-fb9f1326-27 dKfzgF userAvtar px-1">
+        <div className="sc-fb9f1326-27 dKfzgF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -451,14 +451,14 @@ export default function TotalPriceTrans() {
             name="item_cost_limit"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="1.99"
             fdprocessedid="3qpokx"
           />
         </div>
       ),
       transactionpercentage: (
-        <div class="sc-fb9f1326-27 iXqgxr userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgxr userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -467,12 +467,12 @@ export default function TotalPriceTrans() {
             id="mangopay_transaction_fee_percentage"
             name="mangopay_transaction_fee_percentage"
             type="number"
-            class="form-control"
+            className="form-control"
           />
         </div>
       ),
       transactionfee: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -481,12 +481,12 @@ export default function TotalPriceTrans() {
             id="mangoPay_transaction_fee"
             name="mangoPay_transaction_fee"
             type="number"
-            class="form-control"
+            className="form-control"
           />
         </div>
       ),
       totalfees: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -495,13 +495,13 @@ export default function TotalPriceTrans() {
             name="mangopay_total_fees"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.22"
           />
         </div>
       ),
       transactionfeepercentage: (
-        <div class="sc-fb9f1326-27 iXqgzi userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgzi userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -510,13 +510,13 @@ export default function TotalPriceTrans() {
             id="vechit_transaction_fee_percentage"
             name="vechit_transaction_fee_percentage"
             type="number"
-            class="form-control"
+            className="form-control"
             //   value="30"
           />
         </div>
       ),
       vechittransactionfee: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -526,13 +526,13 @@ export default function TotalPriceTrans() {
             name="vechit_transaction_fee"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.3"
           />
         </div>
       ),
       vechittotalfees: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -541,13 +541,13 @@ export default function TotalPriceTrans() {
             name="vechit_total_fees"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.52"
           />
         </div>
       ),
       costtobuyerincfees: (
-        <div class="sc-fb9f1326-27 iXqgyF userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgyF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -556,7 +556,7 @@ export default function TotalPriceTrans() {
             id="total_cost_to_buyer_inc_fees"
             name="total_cost_to_buyer_inc_fees"
             type="number"
-            class="form-control"
+            className="form-control"
             value="1.52"
           />
         </div>
@@ -565,7 +565,7 @@ export default function TotalPriceTrans() {
     {
       id: 4,
       itmscost: (
-        <div class="sc-fb9f1326-27 dKfzgF userAvtar px-1">
+        <div className="sc-fb9f1326-27 dKfzgF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -575,13 +575,13 @@ export default function TotalPriceTrans() {
             name="item_cost"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="4"
           />
         </div>
       ),
       limit: (
-        <div class="sc-fb9f1326-27 dKfzgF userAvtar px-1">
+        <div className="sc-fb9f1326-27 dKfzgF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -591,14 +591,14 @@ export default function TotalPriceTrans() {
             name="item_cost_limit"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="1.99"
             fdprocessedid="3qpokx"
           />
         </div>
       ),
       transactionpercentage: (
-        <div class="sc-fb9f1326-27 iXqgxr userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgxr userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -607,12 +607,12 @@ export default function TotalPriceTrans() {
             id="mangopay_transaction_fee_percentage"
             name="mangopay_transaction_fee_percentage"
             type="number"
-            class="form-control"
+            className="form-control"
           />
         </div>
       ),
       transactionfee: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -621,12 +621,12 @@ export default function TotalPriceTrans() {
             id="mangoPay_transaction_fee"
             name="mangoPay_transaction_fee"
             type="number"
-            class="form-control"
+            className="form-control"
           />
         </div>
       ),
       totalfees: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -635,13 +635,13 @@ export default function TotalPriceTrans() {
             name="mangopay_total_fees"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.22"
           />
         </div>
       ),
       transactionfeepercentage: (
-        <div class="sc-fb9f1326-27 iXqgzi userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgzi userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -650,13 +650,13 @@ export default function TotalPriceTrans() {
             id="vechit_transaction_fee_percentage"
             name="vechit_transaction_fee_percentage"
             type="number"
-            class="form-control"
+            className="form-control"
             //   value="30"
           />
         </div>
       ),
       vechittransactionfee: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -666,13 +666,13 @@ export default function TotalPriceTrans() {
             name="vechit_transaction_fee"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.3"
           />
         </div>
       ),
       vechittotalfees: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -681,13 +681,13 @@ export default function TotalPriceTrans() {
             name="vechit_total_fees"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.52"
           />
         </div>
       ),
       costtobuyerincfees: (
-        <div class="sc-fb9f1326-27 iXqgyF userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgyF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -696,7 +696,7 @@ export default function TotalPriceTrans() {
             id="total_cost_to_buyer_inc_fees"
             name="total_cost_to_buyer_inc_fees"
             type="number"
-            class="form-control"
+            className="form-control"
             value="1.52"
           />
         </div>
@@ -705,7 +705,7 @@ export default function TotalPriceTrans() {
     {
       id: 5,
       itmscost: (
-        <div class="sc-fb9f1326-27 dKfzgF userAvtar px-1">
+        <div className="sc-fb9f1326-27 dKfzgF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -715,13 +715,13 @@ export default function TotalPriceTrans() {
             name="item_cost"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="5"
           />
         </div>
       ),
       limit: (
-        <div class="sc-fb9f1326-27 dKfzgF userAvtar px-1">
+        <div className="sc-fb9f1326-27 dKfzgF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -731,14 +731,14 @@ export default function TotalPriceTrans() {
             name="item_cost_limit"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="1.99"
             fdprocessedid="3qpokx"
           />
         </div>
       ),
       transactionpercentage: (
-        <div class="sc-fb9f1326-27 iXqgxr userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgxr userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -747,12 +747,12 @@ export default function TotalPriceTrans() {
             id="mangopay_transaction_fee_percentage"
             name="mangopay_transaction_fee_percentage"
             type="number"
-            class="form-control"
+            className="form-control"
           />
         </div>
       ),
       transactionfee: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -761,12 +761,12 @@ export default function TotalPriceTrans() {
             id="mangoPay_transaction_fee"
             name="mangoPay_transaction_fee"
             type="number"
-            class="form-control"
+            className="form-control"
           />
         </div>
       ),
       totalfees: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -775,13 +775,13 @@ export default function TotalPriceTrans() {
             name="mangopay_total_fees"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.22"
           />
         </div>
       ),
       transactionfeepercentage: (
-        <div class="sc-fb9f1326-27 iXqgzi userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgzi userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -790,13 +790,13 @@ export default function TotalPriceTrans() {
             id="vechit_transaction_fee_percentage"
             name="vechit_transaction_fee_percentage"
             type="number"
-            class="form-control"
+            className="form-control"
             //   value="30"
           />
         </div>
       ),
       vechittransactionfee: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -806,13 +806,13 @@ export default function TotalPriceTrans() {
             name="vechit_transaction_fee"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.3"
           />
         </div>
       ),
       vechittotalfees: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -821,13 +821,13 @@ export default function TotalPriceTrans() {
             name="vechit_total_fees"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.52"
           />
         </div>
       ),
       costtobuyerincfees: (
-        <div class="sc-fb9f1326-27 iXqgyF userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgyF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -836,7 +836,7 @@ export default function TotalPriceTrans() {
             id="total_cost_to_buyer_inc_fees"
             name="total_cost_to_buyer_inc_fees"
             type="number"
-            class="form-control"
+            className="form-control"
             value="1.52"
           />
         </div>
@@ -845,7 +845,7 @@ export default function TotalPriceTrans() {
     {
       id: 6,
       itmscost: (
-        <div class="sc-fb9f1326-27 dKfzgF userAvtar px-1">
+        <div className="sc-fb9f1326-27 dKfzgF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -855,13 +855,13 @@ export default function TotalPriceTrans() {
             name="item_cost"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="6"
           />
         </div>
       ),
       limit: (
-        <div class="sc-fb9f1326-27 dKfzgF userAvtar px-1">
+        <div className="sc-fb9f1326-27 dKfzgF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -871,14 +871,14 @@ export default function TotalPriceTrans() {
             name="item_cost_limit"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="1.99"
             fdprocessedid="3qpokx"
           />
         </div>
       ),
       transactionpercentage: (
-        <div class="sc-fb9f1326-27 iXqgxr userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgxr userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -887,12 +887,12 @@ export default function TotalPriceTrans() {
             id="mangopay_transaction_fee_percentage"
             name="mangopay_transaction_fee_percentage"
             type="number"
-            class="form-control"
+            className="form-control"
           />
         </div>
       ),
       transactionfee: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -901,12 +901,12 @@ export default function TotalPriceTrans() {
             id="mangoPay_transaction_fee"
             name="mangoPay_transaction_fee"
             type="number"
-            class="form-control"
+            className="form-control"
           />
         </div>
       ),
       totalfees: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -915,13 +915,13 @@ export default function TotalPriceTrans() {
             name="mangopay_total_fees"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.22"
           />
         </div>
       ),
       transactionfeepercentage: (
-        <div class="sc-fb9f1326-27 iXqgzi userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgzi userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -930,13 +930,13 @@ export default function TotalPriceTrans() {
             id="vechit_transaction_fee_percentage"
             name="vechit_transaction_fee_percentage"
             type="number"
-            class="form-control"
+            className="form-control"
             //   value="30"
           />
         </div>
       ),
       vechittransactionfee: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -946,13 +946,13 @@ export default function TotalPriceTrans() {
             name="vechit_transaction_fee"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.3"
           />
         </div>
       ),
       vechittotalfees: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -961,13 +961,13 @@ export default function TotalPriceTrans() {
             name="vechit_total_fees"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.52"
           />
         </div>
       ),
       costtobuyerincfees: (
-        <div class="sc-fb9f1326-27 iXqgyF userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgyF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -976,7 +976,7 @@ export default function TotalPriceTrans() {
             id="total_cost_to_buyer_inc_fees"
             name="total_cost_to_buyer_inc_fees"
             type="number"
-            class="form-control"
+            className="form-control"
             value="1.52"
           />
         </div>
@@ -985,7 +985,7 @@ export default function TotalPriceTrans() {
     {
       id: 7,
       itmscost: (
-        <div class="sc-fb9f1326-27 dKfzgF userAvtar px-1">
+        <div className="sc-fb9f1326-27 dKfzgF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -995,13 +995,13 @@ export default function TotalPriceTrans() {
             name="item_cost"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="7"
           />
         </div>
       ),
       limit: (
-        <div class="sc-fb9f1326-27 dKfzgF userAvtar px-1">
+        <div className="sc-fb9f1326-27 dKfzgF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1011,14 +1011,14 @@ export default function TotalPriceTrans() {
             name="item_cost_limit"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="1.99"
             fdprocessedid="3qpokx"
           />
         </div>
       ),
       transactionpercentage: (
-        <div class="sc-fb9f1326-27 iXqgxr userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgxr userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1027,12 +1027,12 @@ export default function TotalPriceTrans() {
             id="mangopay_transaction_fee_percentage"
             name="mangopay_transaction_fee_percentage"
             type="number"
-            class="form-control"
+            className="form-control"
           />
         </div>
       ),
       transactionfee: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1041,12 +1041,12 @@ export default function TotalPriceTrans() {
             id="mangoPay_transaction_fee"
             name="mangoPay_transaction_fee"
             type="number"
-            class="form-control"
+            className="form-control"
           />
         </div>
       ),
       totalfees: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1055,13 +1055,13 @@ export default function TotalPriceTrans() {
             name="mangopay_total_fees"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.22"
           />
         </div>
       ),
       transactionfeepercentage: (
-        <div class="sc-fb9f1326-27 iXqgzi userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgzi userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1070,13 +1070,13 @@ export default function TotalPriceTrans() {
             id="vechit_transaction_fee_percentage"
             name="vechit_transaction_fee_percentage"
             type="number"
-            class="form-control"
+            className="form-control"
             //   value="30"
           />
         </div>
       ),
       vechittransactionfee: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1086,13 +1086,13 @@ export default function TotalPriceTrans() {
             name="vechit_transaction_fee"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.3"
           />
         </div>
       ),
       vechittotalfees: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1101,13 +1101,13 @@ export default function TotalPriceTrans() {
             name="vechit_total_fees"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.52"
           />
         </div>
       ),
       costtobuyerincfees: (
-        <div class="sc-fb9f1326-27 iXqgyF userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgyF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1116,7 +1116,7 @@ export default function TotalPriceTrans() {
             id="total_cost_to_buyer_inc_fees"
             name="total_cost_to_buyer_inc_fees"
             type="number"
-            class="form-control"
+            className="form-control"
             value="1.52"
           />
         </div>
@@ -1125,7 +1125,7 @@ export default function TotalPriceTrans() {
     {
       id: 8,
       itmscost: (
-        <div class="sc-fb9f1326-27 dKfzgF userAvtar px-1">
+        <div className="sc-fb9f1326-27 dKfzgF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1135,13 +1135,13 @@ export default function TotalPriceTrans() {
             name="item_cost"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="8"
           />
         </div>
       ),
       limit: (
-        <div class="sc-fb9f1326-27 dKfzgF userAvtar px-1">
+        <div className="sc-fb9f1326-27 dKfzgF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1151,14 +1151,14 @@ export default function TotalPriceTrans() {
             name="item_cost_limit"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="1.99"
             fdprocessedid="3qpokx"
           />
         </div>
       ),
       transactionpercentage: (
-        <div class="sc-fb9f1326-27 iXqgxr userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgxr userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1167,12 +1167,12 @@ export default function TotalPriceTrans() {
             id="mangopay_transaction_fee_percentage"
             name="mangopay_transaction_fee_percentage"
             type="number"
-            class="form-control"
+            className="form-control"
           />
         </div>
       ),
       transactionfee: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1181,12 +1181,12 @@ export default function TotalPriceTrans() {
             id="mangoPay_transaction_fee"
             name="mangoPay_transaction_fee"
             type="number"
-            class="form-control"
+            className="form-control"
           />
         </div>
       ),
       totalfees: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1195,13 +1195,13 @@ export default function TotalPriceTrans() {
             name="mangopay_total_fees"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.22"
           />
         </div>
       ),
       transactionfeepercentage: (
-        <div class="sc-fb9f1326-27 iXqgzi userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgzi userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1210,13 +1210,13 @@ export default function TotalPriceTrans() {
             id="vechit_transaction_fee_percentage"
             name="vechit_transaction_fee_percentage"
             type="number"
-            class="form-control"
+            className="form-control"
             //   value="30"
           />
         </div>
       ),
       vechittransactionfee: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1226,13 +1226,13 @@ export default function TotalPriceTrans() {
             name="vechit_transaction_fee"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.3"
           />
         </div>
       ),
       vechittotalfees: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1241,13 +1241,13 @@ export default function TotalPriceTrans() {
             name="vechit_total_fees"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.52"
           />
         </div>
       ),
       costtobuyerincfees: (
-        <div class="sc-fb9f1326-27 iXqgyF userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgyF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1256,7 +1256,7 @@ export default function TotalPriceTrans() {
             id="total_cost_to_buyer_inc_fees"
             name="total_cost_to_buyer_inc_fees"
             type="number"
-            class="form-control"
+            className="form-control"
             value="1.52"
           />
         </div>
@@ -1265,7 +1265,7 @@ export default function TotalPriceTrans() {
     {
       id: 9,
       itmscost: (
-        <div class="sc-fb9f1326-27 dKfzgF userAvtar px-1">
+        <div className="sc-fb9f1326-27 dKfzgF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1275,13 +1275,13 @@ export default function TotalPriceTrans() {
             name="item_cost"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="9"
           />
         </div>
       ),
       limit: (
-        <div class="sc-fb9f1326-27 dKfzgF userAvtar px-1">
+        <div className="sc-fb9f1326-27 dKfzgF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1291,14 +1291,14 @@ export default function TotalPriceTrans() {
             name="item_cost_limit"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="1.99"
             fdprocessedid="3qpokx"
           />
         </div>
       ),
       transactionpercentage: (
-        <div class="sc-fb9f1326-27 iXqgxr userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgxr userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1307,12 +1307,12 @@ export default function TotalPriceTrans() {
             id="mangopay_transaction_fee_percentage"
             name="mangopay_transaction_fee_percentage"
             type="number"
-            class="form-control"
+            className="form-control"
           />
         </div>
       ),
       transactionfee: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1321,12 +1321,12 @@ export default function TotalPriceTrans() {
             id="mangoPay_transaction_fee"
             name="mangoPay_transaction_fee"
             type="number"
-            class="form-control"
+            className="form-control"
           />
         </div>
       ),
       totalfees: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1335,13 +1335,13 @@ export default function TotalPriceTrans() {
             name="mangopay_total_fees"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.22"
           />
         </div>
       ),
       transactionfeepercentage: (
-        <div class="sc-fb9f1326-27 iXqgzi userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgzi userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1350,13 +1350,13 @@ export default function TotalPriceTrans() {
             id="vechit_transaction_fee_percentage"
             name="vechit_transaction_fee_percentage"
             type="number"
-            class="form-control"
+            className="form-control"
             //   value="30"
           />
         </div>
       ),
       vechittransactionfee: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1366,13 +1366,13 @@ export default function TotalPriceTrans() {
             name="vechit_transaction_fee"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.3"
           />
         </div>
       ),
       vechittotalfees: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1381,13 +1381,13 @@ export default function TotalPriceTrans() {
             name="vechit_total_fees"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.52"
           />
         </div>
       ),
       costtobuyerincfees: (
-        <div class="sc-fb9f1326-27 iXqgyF userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgyF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1396,7 +1396,7 @@ export default function TotalPriceTrans() {
             id="total_cost_to_buyer_inc_fees"
             name="total_cost_to_buyer_inc_fees"
             type="number"
-            class="form-control"
+            className="form-control"
             value="1.52"
           />
         </div>
@@ -1405,7 +1405,7 @@ export default function TotalPriceTrans() {
     {
       id: 10,
       itmscost: (
-        <div class="sc-fb9f1326-27 dKfzgF userAvtar px-1">
+        <div className="sc-fb9f1326-27 dKfzgF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1415,13 +1415,13 @@ export default function TotalPriceTrans() {
             name="item_cost"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="10"
           />
         </div>
       ),
       limit: (
-        <div class="sc-fb9f1326-27 dKfzgF userAvtar px-1">
+        <div className="sc-fb9f1326-27 dKfzgF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1431,14 +1431,14 @@ export default function TotalPriceTrans() {
             name="item_cost_limit"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="1.99"
             fdprocessedid="3qpokx"
           />
         </div>
       ),
       transactionpercentage: (
-        <div class="sc-fb9f1326-27 iXqgxr userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgxr userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1447,12 +1447,12 @@ export default function TotalPriceTrans() {
             id="mangopay_transaction_fee_percentage"
             name="mangopay_transaction_fee_percentage"
             type="number"
-            class="form-control"
+            className="form-control"
           />
         </div>
       ),
       transactionfee: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1461,12 +1461,12 @@ export default function TotalPriceTrans() {
             id="mangoPay_transaction_fee"
             name="mangoPay_transaction_fee"
             type="number"
-            class="form-control"
+            className="form-control"
           />
         </div>
       ),
       totalfees: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1475,13 +1475,13 @@ export default function TotalPriceTrans() {
             name="mangopay_total_fees"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.22"
           />
         </div>
       ),
       transactionfeepercentage: (
-        <div class="sc-fb9f1326-27 iXqgzi userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgzi userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1490,13 +1490,13 @@ export default function TotalPriceTrans() {
             id="vechit_transaction_fee_percentage"
             name="vechit_transaction_fee_percentage"
             type="number"
-            class="form-control"
+            className="form-control"
             //   value="30"
           />
         </div>
       ),
       vechittransactionfee: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1506,13 +1506,13 @@ export default function TotalPriceTrans() {
             name="vechit_transaction_fee"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.3"
           />
         </div>
       ),
       vechittotalfees: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1521,13 +1521,13 @@ export default function TotalPriceTrans() {
             name="vechit_total_fees"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.52"
           />
         </div>
       ),
       costtobuyerincfees: (
-        <div class="sc-fb9f1326-27 iXqgyF userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgyF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1536,7 +1536,7 @@ export default function TotalPriceTrans() {
             id="total_cost_to_buyer_inc_fees"
             name="total_cost_to_buyer_inc_fees"
             type="number"
-            class="form-control"
+            className="form-control"
             value="1.52"
           />
         </div>
@@ -1545,7 +1545,7 @@ export default function TotalPriceTrans() {
     {
       id: 11,
       itmscost: (
-        <div class="sc-fb9f1326-27 dKfzgF userAvtar px-1">
+        <div className="sc-fb9f1326-27 dKfzgF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1555,13 +1555,13 @@ export default function TotalPriceTrans() {
             name="item_cost"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="11"
           />
         </div>
       ),
       limit: (
-        <div class="sc-fb9f1326-27 dKfzgF userAvtar px-1">
+        <div className="sc-fb9f1326-27 dKfzgF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1571,14 +1571,14 @@ export default function TotalPriceTrans() {
             name="item_cost_limit"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="1.99"
             fdprocessedid="3qpokx"
           />
         </div>
       ),
       transactionpercentage: (
-        <div class="sc-fb9f1326-27 iXqgxr userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgxr userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1587,12 +1587,12 @@ export default function TotalPriceTrans() {
             id="mangopay_transaction_fee_percentage"
             name="mangopay_transaction_fee_percentage"
             type="number"
-            class="form-control"
+            className="form-control"
           />
         </div>
       ),
       transactionfee: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1601,12 +1601,12 @@ export default function TotalPriceTrans() {
             id="mangoPay_transaction_fee"
             name="mangoPay_transaction_fee"
             type="number"
-            class="form-control"
+            className="form-control"
           />
         </div>
       ),
       totalfees: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1615,13 +1615,13 @@ export default function TotalPriceTrans() {
             name="mangopay_total_fees"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.22"
           />
         </div>
       ),
       transactionfeepercentage: (
-        <div class="sc-fb9f1326-27 iXqgzi userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgzi userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1630,13 +1630,13 @@ export default function TotalPriceTrans() {
             id="vechit_transaction_fee_percentage"
             name="vechit_transaction_fee_percentage"
             type="number"
-            class="form-control"
+            className="form-control"
             //   value="30"
           />
         </div>
       ),
       vechittransactionfee: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1646,13 +1646,13 @@ export default function TotalPriceTrans() {
             name="vechit_transaction_fee"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.3"
           />
         </div>
       ),
       vechittotalfees: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1661,13 +1661,13 @@ export default function TotalPriceTrans() {
             name="vechit_total_fees"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.52"
           />
         </div>
       ),
       costtobuyerincfees: (
-        <div class="sc-fb9f1326-27 iXqgyF userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgyF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1676,7 +1676,7 @@ export default function TotalPriceTrans() {
             id="total_cost_to_buyer_inc_fees"
             name="total_cost_to_buyer_inc_fees"
             type="number"
-            class="form-control"
+            className="form-control"
             value="1.52"
           />
         </div>
@@ -1685,7 +1685,7 @@ export default function TotalPriceTrans() {
     {
       id: 12,
       itmscost: (
-        <div class="sc-fb9f1326-27 dKfzgF userAvtar px-1">
+        <div className="sc-fb9f1326-27 dKfzgF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1695,13 +1695,13 @@ export default function TotalPriceTrans() {
             name="item_cost"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="12"
           />
         </div>
       ),
       limit: (
-        <div class="sc-fb9f1326-27 dKfzgF userAvtar px-1">
+        <div className="sc-fb9f1326-27 dKfzgF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1711,14 +1711,14 @@ export default function TotalPriceTrans() {
             name="item_cost_limit"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="1.99"
             fdprocessedid="3qpokx"
           />
         </div>
       ),
       transactionpercentage: (
-        <div class="sc-fb9f1326-27 iXqgxr userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgxr userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1727,12 +1727,12 @@ export default function TotalPriceTrans() {
             id="mangopay_transaction_fee_percentage"
             name="mangopay_transaction_fee_percentage"
             type="number"
-            class="form-control"
+            className="form-control"
           />
         </div>
       ),
       transactionfee: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1741,12 +1741,12 @@ export default function TotalPriceTrans() {
             id="mangoPay_transaction_fee"
             name="mangoPay_transaction_fee"
             type="number"
-            class="form-control"
+            className="form-control"
           />
         </div>
       ),
       totalfees: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1755,13 +1755,13 @@ export default function TotalPriceTrans() {
             name="mangopay_total_fees"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.22"
           />
         </div>
       ),
       transactionfeepercentage: (
-        <div class="sc-fb9f1326-27 iXqgzi userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgzi userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1770,13 +1770,13 @@ export default function TotalPriceTrans() {
             id="vechit_transaction_fee_percentage"
             name="vechit_transaction_fee_percentage"
             type="number"
-            class="form-control"
+            className="form-control"
             //   value="30"
           />
         </div>
       ),
       vechittransactionfee: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1786,13 +1786,13 @@ export default function TotalPriceTrans() {
             name="vechit_transaction_fee"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.3"
           />
         </div>
       ),
       vechittotalfees: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1801,13 +1801,13 @@ export default function TotalPriceTrans() {
             name="vechit_total_fees"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.52"
           />
         </div>
       ),
       costtobuyerincfees: (
-        <div class="sc-fb9f1326-27 iXqgyF userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgyF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1816,7 +1816,7 @@ export default function TotalPriceTrans() {
             id="total_cost_to_buyer_inc_fees"
             name="total_cost_to_buyer_inc_fees"
             type="number"
-            class="form-control"
+            className="form-control"
             value="1.52"
           />
         </div>
@@ -1825,7 +1825,7 @@ export default function TotalPriceTrans() {
     {
       id: 13,
       itmscost: (
-        <div class="sc-fb9f1326-27 dKfzgF userAvtar px-1">
+        <div className="sc-fb9f1326-27 dKfzgF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1835,13 +1835,13 @@ export default function TotalPriceTrans() {
             name="item_cost"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="13"
           />
         </div>
       ),
       limit: (
-        <div class="sc-fb9f1326-27 dKfzgF userAvtar px-1">
+        <div className="sc-fb9f1326-27 dKfzgF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1851,14 +1851,14 @@ export default function TotalPriceTrans() {
             name="item_cost_limit"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="1.99"
             fdprocessedid="3qpokx"
           />
         </div>
       ),
       transactionpercentage: (
-        <div class="sc-fb9f1326-27 iXqgxr userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgxr userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1867,12 +1867,12 @@ export default function TotalPriceTrans() {
             id="mangopay_transaction_fee_percentage"
             name="mangopay_transaction_fee_percentage"
             type="number"
-            class="form-control"
+            className="form-control"
           />
         </div>
       ),
       transactionfee: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1881,12 +1881,12 @@ export default function TotalPriceTrans() {
             id="mangoPay_transaction_fee"
             name="mangoPay_transaction_fee"
             type="number"
-            class="form-control"
+            className="form-control"
           />
         </div>
       ),
       totalfees: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1895,13 +1895,13 @@ export default function TotalPriceTrans() {
             name="mangopay_total_fees"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.22"
           />
         </div>
       ),
       transactionfeepercentage: (
-        <div class="sc-fb9f1326-27 iXqgzi userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgzi userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1910,13 +1910,13 @@ export default function TotalPriceTrans() {
             id="vechit_transaction_fee_percentage"
             name="vechit_transaction_fee_percentage"
             type="number"
-            class="form-control"
+            className="form-control"
             //   value="30"
           />
         </div>
       ),
       vechittransactionfee: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1926,13 +1926,13 @@ export default function TotalPriceTrans() {
             name="vechit_transaction_fee"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.3"
           />
         </div>
       ),
       vechittotalfees: (
-        <div class="sc-fb9f1326-27 iXqgAw userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgAw userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1941,13 +1941,13 @@ export default function TotalPriceTrans() {
             name="vechit_total_fees"
             disabled="true"
             type="number"
-            class="form-control"
+            className="form-control"
             value="0.52"
           />
         </div>
       ),
       costtobuyerincfees: (
-        <div class="sc-fb9f1326-27 iXqgyF userAvtar px-1">
+        <div className="sc-fb9f1326-27 iXqgyF userAvtar px-1">
           <input
             min="0"
             step="0.01"
@@ -1956,7 +1956,7 @@ export default function TotalPriceTrans() {
             id="total_cost_to_buyer_inc_fees"
             name="total_cost_to_buyer_inc_fees"
             type="number"
-            class="form-control"
+            className="form-control"
             value="1.52"
           />
         </div>

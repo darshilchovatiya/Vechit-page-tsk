@@ -52,11 +52,11 @@ export default function DetailsBox() {
       <div className="update-customer">
         <div className="row">
           <div className="col-xl-12">
-            <div class="sc-fb9f1326-0 TnemY d-sm-flex align-items-center justify-content-between">
-              <h6 class="sc-fb9f1326-1 izPFRb mb-sm-0">UPDATE CUSTOMER</h6>
-              <div class="sc-fb9f1326-2 jncgKT page-title-right">
-                <ol class="breadcrumb m-0">
-                  <li class="breadcrumb-item"></li>
+            <div className="sc-fb9f1326-0 TnemY d-sm-flex align-items-center justify-content-between">
+              <h6 className="sc-fb9f1326-1 izPFRb mb-sm-0">UPDATE CUSTOMER</h6>
+              <div className="sc-fb9f1326-2 jncgKT page-title-right">
+                <ol className="breadcrumb m-0">
+                  <li className="breadcrumb-item"></li>
                 </ol>
               </div>
             </div>
@@ -65,7 +65,7 @@ export default function DetailsBox() {
         <div className="row">
           <div className="update">
             <div className="col">
-              <h5 class="mb-3">Update Customer</h5>
+              <h5 className="mb-3">Update Customer</h5>
             </div>
             <div className="end-btn">
               <div onClick={() => router.push("/customer")}>
