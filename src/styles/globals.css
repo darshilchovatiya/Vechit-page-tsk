@@ -388,10 +388,37 @@ label {
   cursor: pointer;
 }
 
-option {
-  background-color: #ffffff;
-  color: black;
+/* .dropdown.\32 {
+  height: 30px;
+} */
+.custom-dropdown.dropdown {
+  height: 22px;
 }
+
+button.dropdown-toggle.btn.btn-primary.\35 {
+  height: 35px;
+  width: 300px;
+  padding: 0;
+  background-color: black;
+}
+
+button.dropdown-item {
+  height: 40px;
+  width: 300px;
+  color: #686868;
+  font-weight: 500;
+  padding: 0 15px;
+}
+
+.click-btn-search {
+  height: 25px;
+}
+
+button.btn.btn-dark {
+  width: 100px;
+  height: 35px;
+}
+
 
 /* backbtn */
 button.btn.btn-dark.\32 {
@@ -472,14 +499,15 @@ button.btn.btn-danger {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  height: 260px;
+  height: 255px;
+  width: 354px;
+  border: 2px dashed rgb(204, 204, 204);
 }
 
 .imgbox {
   width: 354px;
   height: 250px;
   position: relative;
-  border: 2px dashed rgb(204, 204, 204);
 }
 
 .imgitem {

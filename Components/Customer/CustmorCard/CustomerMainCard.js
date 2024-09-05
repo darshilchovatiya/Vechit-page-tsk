@@ -1,6 +1,24 @@
-import { Button } from "reactstrap";
+import React, { useState } from "react";
+import {
+  Dropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem,
+  Button,
+} from "reactstrap";
 
-export default function CustomerMainCard() {
+export default function CustomerMainCard({ direction = "down", ...args }) {
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [selectedItem, setSelectedItem] = useState("All");
+
+  const toggleDropdown = () => setDropdownOpen((prevState) => !prevState);
+
+  const handleSelect = (item) => {
+    setSelectedItem(item);
+    setDropdownOpen(false);
+    toggleDropdown();
+  };
+
   return (
     <>
       <div className="customer">
@@ -59,26 +77,41 @@ export default function CustomerMainCard() {
             <div className="customerdropdown">
               <div className="col-xl-6">
                 <div className="mb-3 mb-3">
-                  <select
-                    id="status"
-                    name="status"
-                    className="custdrop"
-                    fdprocessedid="tcm4xr"
+                  <Dropdown
+                    className="custom-dropdown"
+                    isOpen={dropdownOpen}
+                    toggle={toggleDropdown}
+                    direction={direction}
                   >
-                    <option value="All">All</option>
-                    <option value="Active">Active</option>
-                    <option value="Inactive">Inactive</option>
-                    <option value="Delete">Delete</option>
-                    <option value="Block">Block</option>
-                  </select>
+                    <DropdownToggle caret color="primary 5">
+                      {selectedItem}
+                    </DropdownToggle>
+                    <DropdownMenu {...args}>
+                      <DropdownItem onClick={() => handleSelect("All")}>
+                        All
+                      </DropdownItem>
+                      <DropdownItem onClick={() => handleSelect("Active")}>
+                        Active
+                      </DropdownItem>
+                      <DropdownItem onClick={() => handleSelect("Inactive")}>
+                        Inactive
+                      </DropdownItem>
+                      <DropdownItem onClick={() => handleSelect("Delete")}>
+                        Delete
+                      </DropdownItem>
+                      <DropdownItem onClick={() => handleSelect("Block")}>
+                        Block
+                      </DropdownItem>
+                    </DropdownMenu>
+                  </Dropdown>
                 </div>
               </div>
             </div>
           </div>
-          <div className="click-btn">
+          <div className="click-btn-search">
             <Button color="dark">Search</Button>
           </div>
-          <div className="click-btn">
+          <div className="click-btn-search">
             <Button color="dark">Reset</Button>
           </div>
         </div>

@@ -194,7 +194,6 @@ export default function CustomerTable() {
       registrationdate: "14-08-2024 10:47:38 ",
       logindate: "28-08-2024 11:03:42 ",
     },
-    // ... More customers
   ]);
 
   const columns = [

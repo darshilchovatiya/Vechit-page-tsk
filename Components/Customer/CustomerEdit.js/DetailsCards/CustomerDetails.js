@@ -1,6 +1,9 @@
+import { useState } from "react";
 import { CloseButton } from "reactstrap";
 
 export default function CustomerDetails() {
+  const [isImageVisible, setImageVisible] = useState(true);
+
   return (
     <div className="card">
       <div className="card-body">
@@ -40,7 +43,8 @@ export default function CustomerDetails() {
           <div className="col-xl-6">
             <div className="mb-3 mb-3">
               <label for="Phone_Number" className="form-label form-label">
-                Phone Number <span className="invalid-feedback d-inline">*</span>
+                Phone Number{" "}
+                <span className="invalid-feedback d-inline">*</span>
               </label>
               <input
                 placeholder="Phone Number"
@@ -113,7 +117,8 @@ export default function CustomerDetails() {
           <div className="col-xl-6">
             <div className="mb-3 mb-3">
               <label for="date_of_birth" className="form-label form-label">
-                Date Of Birth <span className="invalid-feedback d-inline">*</span>
+                Date Of Birth{" "}
+                <span className="invalid-feedback d-inline">*</span>
               </label>
               <input
                 id="date_of_birth"
@@ -131,14 +136,19 @@ export default function CustomerDetails() {
               Update Photo<span className="invalid-feedback d-inline"> *</span>
             </label>
             <div className="updateimg">
-              <div className="imgbox">
-                <div className="imgitem">
-                  <img src="/custdet1.jpeg"></img>
+              {isImageVisible && (
+                <div className="imgbox">
+                  <div className="imgitem">
+                    <img src="/custdet1.jpeg"></img>
+                  </div>
+                  <div
+                    className="clsbtn"
+                    onClick={() => setImageVisible(false)}
+                  >
+                    <CloseButton variant="white" />
+                  </div>
                 </div>
-                <div className="clsbtn">
-                  <CloseButton variant="white" />
-                </div>
-              </div>
+              )}
             </div>
           </div>
           <div className="col-xl-6">
@@ -229,7 +239,8 @@ export default function CustomerDetails() {
           <div className="col-xl-6">
             <div className="mb-3 mb-3">
               <label for="holiday_mode" className="form-label form-label">
-                Holiday Mode <span className="invalid-feedback d-inline">*</span>
+                Holiday Mode{" "}
+                <span className="invalid-feedback d-inline">*</span>
               </label>
               <select
                 placeholder="Holiday Mode"
@@ -284,7 +295,8 @@ export default function CustomerDetails() {
           <div className="col-xl-6">
             <div className="mb-3 mb-3">
               <label for="average_ratting" className="form-label form-label">
-                Customer Rating <span className="invalid-feedback d-inline">*</span>
+                Customer Rating{" "}
+                <span className="invalid-feedback d-inline">*</span>
               </label>
               <input
                 placeholder="Average Rating"
@@ -317,7 +329,10 @@ export default function CustomerDetails() {
           </div>
           <div className="col-xl-6">
             <div className="mb-3 mb-3">
-              <label for="enable_notification" className="form-label form-label">
+              <label
+                for="enable_notification"
+                className="form-label form-label"
+              >
                 Enable Notification{" "}
                 <span className="invalid-feedback d-inline">*</span>
               </label>
