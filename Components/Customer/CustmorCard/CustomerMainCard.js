@@ -1,12 +1,6 @@
-import { useState } from "react";
-import {
-  Button
-} from "reactstrap";
+import { Button } from "reactstrap";
 
 export default function CustomerMainCard() {
-  const [dropdownOpen, setDropdownOpen] = useState(false);
-
-  const toggle = () => setDropdownOpen((prevState) => !prevState);
   return (
     <>
       <div className="customer">

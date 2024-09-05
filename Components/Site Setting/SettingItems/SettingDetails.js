@@ -6,9 +6,6 @@ export default function SettingDetails() {
   const [isImageVisible2, setImageVisible2] = useState(true);
   const [isImageVisible3, setImageVisible3] = useState(true);
 
-  // const handleCloseClick = () => {
-  //   setImageVisible1(false);
-  // };
   return (
     <div className="card">
       <h6 className="jdge">Site Details</h6>
