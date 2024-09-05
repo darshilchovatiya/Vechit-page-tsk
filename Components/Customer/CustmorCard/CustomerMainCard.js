@@ -109,10 +109,10 @@ export default function CustomerMainCard({ direction = "down", ...args }) {
             </div>
           </div>
           <div className="click-btn-search">
-            <Button color="dark">Search</Button>
+            <Button color="dark search">Search</Button>
           </div>
           <div className="click-btn-search">
-            <Button color="dark">Reset</Button>
+            <Button color="dark search">Reset</Button>
           </div>
         </div>
       </div>
