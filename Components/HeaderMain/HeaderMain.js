@@ -31,7 +31,6 @@ export default function HeaderMain() {
             <span className="notif-icon">
               <Icon icon="material-symbols-light:notifications-unread-outline-sharp" />
             </span>
-          {/* <div className="fullscreen"> */}
             <span className="fullscreen-icon">
               <Icon icon="material-symbols-light:fullscreen" />
             </span>

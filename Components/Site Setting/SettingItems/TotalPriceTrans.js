@@ -8,7 +8,6 @@ import ModalPage from "../../Modal/ModalPage";
 const customStyles = {
   rows: {
     style: {
-      //   minHeight: "auto",
     },
   },
   headCells: {

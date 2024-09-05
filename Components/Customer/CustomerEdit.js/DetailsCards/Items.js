@@ -7,9 +7,7 @@ import ModalPage from "../../../Modal/ModalPage";
 
 const customStyles = {
   rows: {
-    style: {
-      // height: "60px",
-    },
+    style: {},
   },
   headCells: {
     style: {
@@ -18,7 +16,6 @@ const customStyles = {
       border: "1px solid #f1f1f1",
       backgroundColor: "#f8f9fb",
       color: "gray",
-      //   justifyContent: "center",
     },
   },
   cells: {

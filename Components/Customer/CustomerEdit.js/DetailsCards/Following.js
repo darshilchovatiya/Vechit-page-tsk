@@ -4,10 +4,7 @@ import { Badge, Card, CardBody } from "reactstrap";
 
 const customStyles = {
   rows: {
-    style: {
-    //   fontSize: "15px",
-    //   fontWeight: "600",
-    },
+    style: {},
   },
   headCells: {
     style: {

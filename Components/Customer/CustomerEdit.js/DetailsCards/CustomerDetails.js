@@ -68,7 +68,6 @@ export default function CustomerDetails() {
                 type="text"
                 className="is-valid form-control"
                 aria-invalid="false"
-                // value="darshil@itservicesindia.com"
                 fdprocessedid="5dtsjg"
               />
               <div className="invalid-feedback"></div>

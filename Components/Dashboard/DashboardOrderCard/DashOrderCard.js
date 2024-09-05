@@ -16,7 +16,9 @@ export default function DashboardOrderCard() {
                 </span>
                 <div className="sc-fb9f1326-95 faIsE">TODAYS ORDERS</div>
                 <div className="sc-fb9f1326-96 boSfkV">0</div>
-                <div className="sc-fb9f1326-97 fTzkJG">Total orders for today</div>
+                <div className="sc-fb9f1326-97 fTzkJG">
+                  Total orders for today
+                </div>
                 <Progress className="my-3" />
               </div>
             </div>
@@ -87,7 +89,9 @@ export default function DashboardOrderCard() {
                 <span className="carticon">
                   <Icon icon="simple-line-icons:calender" />
                 </span>
-                <div className="sc-fb9f1326-95 faIsE">CUSTOMERS FOR THE MONTH</div>
+                <div className="sc-fb9f1326-95 faIsE">
+                  CUSTOMERS FOR THE MONTH
+                </div>
                 <div className="sc-fb9f1326-96 boSfkV">24</div>
                 <div className="sc-fb9f1326-97 fTzkJG">
                   Total customers for last month

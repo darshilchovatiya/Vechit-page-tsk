@@ -6,7 +6,6 @@ import { Button, Card, CardBody } from "reactstrap";
 const customStyles = {
   rows: {
     style: {
-      // height: "60px",
     },
   },
   headCells: {
@@ -29,6 +28,7 @@ const customStyles = {
   },
 };
 export default function Address() {
+  
   const columns = [
     {
       name: "Full Name",
