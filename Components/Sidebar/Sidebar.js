@@ -31,7 +31,7 @@ export default function Sidebar() {
       <div className="w-100">
         {SidebarArray.map((a) => (
           <div
-            className={`items ${router.pathname === a.route ? "active" : ""}`}
+            className={`items p-4 ${router.pathname === a.route ? "active" : ""}`}
             onClick={() => router.push(a.route)}
           >
             <div className="icon">

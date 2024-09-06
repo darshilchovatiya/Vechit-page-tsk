@@ -101,13 +101,13 @@ export default function Items() {
       selector: (row) => (
         <div className="actionbtn">
           <div onClick={() => router.push("/customerdetailspage")}>
-            <Button color="primary">
+            <Button color="primary p-0">
               <Icon icon="ic:outline-edit" height={15} width={15} />
             </Button>
           </div>
           <div>
             <Button
-              color="danger"
+              color="danger p-0"
               onClick={() => {
                 setSelectedId(row.id);
                 toggle();

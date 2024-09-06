@@ -270,13 +270,13 @@ export default function CustomerTable() {
       selector: (row) => (
         <div className="actionbtn">
           <div onClick={() => router.push("/customer/CustomerDetailsPage")}>
-            <Button color="primary">
+            <Button color="primary p-0">
               <Icon icon="ic:outline-edit" />
             </Button>
           </div>
           <div>
             <Button
-              color="danger"
+              color="danger p-0"
               onClick={() => {
                 setSelectedId(row.id);
                 toggle();

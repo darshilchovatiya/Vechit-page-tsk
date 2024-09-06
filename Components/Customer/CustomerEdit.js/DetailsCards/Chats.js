@@ -72,7 +72,7 @@ export default function Chats() {
     {
       name: "Action",
       selector: (row) => (
-        <Button color="primary">
+        <Button color="primary p-0">
           <Icon icon="mdi:eye-outline" width="1rem" height="1rem" />
         </Button>
       ),

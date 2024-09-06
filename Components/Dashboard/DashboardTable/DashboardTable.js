@@ -278,7 +278,7 @@ export default function DashboardTable() {
           className="actionbtn"
           onClick={() => router.push("/customer/CustomerDetailsPage")}
         >
-          <Button color="primary">
+          <Button color="primary p-0">
             <Icon icon="ic:outline-edit" height={20} width={20} />
           </Button>
         </div>
@@ -345,10 +345,10 @@ export default function DashboardTable() {
   ];
   return (
     <>
-      <Card>
+      <Card className="mb-4">
         <CardBody>
           <DataTable
-            title="LATEST ORDERS"
+            title="LATEST ORDERS "
             className="dataTable"
             columns={columns}
             data={data}

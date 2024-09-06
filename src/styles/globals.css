@@ -137,7 +137,6 @@ input#search {
 }
 
 .sidebarmain .items {
-  padding: 25px;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -145,7 +144,6 @@ input#search {
 
 .sidebarmain .items:hover {
   background-color: #f7fbff;
-  /* Example color */
   color: #3773e2;
 }
 
@@ -207,10 +205,6 @@ input#search {
   flex-wrap: wrap;
 }
 
-.card.p-20 {
-  padding: 10px;
-}
-
 .d-sm-flex {
   width: 104%;
 }
@@ -232,16 +226,10 @@ h6.sc-fb9f1326-1.izPFRb.mb-sm-0 {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.ordercard.card {
-  padding: 10px;
-}
-
 .ordercard {
   position: relative;
   border: 0.5px solid rgb(221, 221, 221);
-  margin-top: 30px;
   transition: 0.4s;
-  /* min-height: 270px; */
   cursor: pointer;
   background: rgb(247, 251, 255) !important;
   color: rgb(108, 117, 125) !important;
@@ -253,7 +241,7 @@ h6.sc-fb9f1326-1.izPFRb.mb-sm-0 {
     transition: 0.4s;
     opacity: 0.6;
     font-size: 40px;
-    top: 5px;
+    top: 0;
   }
 }
 
@@ -330,9 +318,6 @@ span.badge.bg-secondary {
   color: gray;
 }
 
-.card {
-  margin-bottom: 10px;
-}
 
 .tableimg {
   img {
@@ -381,19 +366,6 @@ label {
   display: inline-block;
 }
 
-.custdrop {
-  height: 38px;
-  width: 270px;
-  font-size: 17px;
-  margin: 10px 0 0 0;
-  background-color: black;
-  color: white;
-  text-align: center;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-
 .custom-dropdown.dropdown {
   height: 22px;
 }
@@ -401,7 +373,6 @@ label {
 button.dropdown-toggle.btn.btn-primary.\35 {
   height: 35px;
   width: 300px;
-  padding: 0;
   background-color: black;
 }
 
@@ -410,7 +381,6 @@ button.dropdown-item {
   width: 300px;
   color: #686868;
   font-weight: 500;
-  padding: 0 15px;
 }
 
 .click-btn-search {
@@ -460,13 +430,11 @@ span.badge.bg-success.\32 {
 button.btn.btn-primary {
   height: 35px;
   width: 35px;
-  padding: 0;
 }
 
 button.btn.btn-danger {
   height: 35px;
   width: 35px;
-  padding: 0;
 }
 
 /* edit-btn-page */
@@ -647,8 +615,6 @@ button.btn.btn-info {
 .jdge {
   font-size: 15px;
   font-weight: 600;
-  margin-bottom: 0px;
-  padding: 1rem;
 }
 
 .siteimg {

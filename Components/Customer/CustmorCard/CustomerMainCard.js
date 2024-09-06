@@ -31,7 +31,7 @@ export default function CustomerMainCard({ direction = "down", ...args }) {
           </div>
         </div>
       </div>
-      <div className="card">
+      <div className="card mb-3">
         <div className="card-header custcard">
           <div className="w-25 mb-3">
             <label for="search1" className="form-label">

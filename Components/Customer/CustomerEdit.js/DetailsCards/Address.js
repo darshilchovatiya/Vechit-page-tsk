@@ -65,7 +65,7 @@ export default function Address() {
       city: "Hammersmith and Fulham",
       action: (
         <div className="actionbtn">
-          <Button color="primary">
+          <Button color="primary p-0">
             <Icon icon="ic:outline-edit" />
           </Button>
         </div>

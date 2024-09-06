@@ -8,7 +8,7 @@ export default function SettingDetails() {
 
   return (
     <div className="card">
-      <h6 className="jdge">Site Details</h6>
+      <h6 className="jdge p-3">Site Details</h6>
       <div className="card-body">
         <div className="row">
           <div className="col-xl-6">
