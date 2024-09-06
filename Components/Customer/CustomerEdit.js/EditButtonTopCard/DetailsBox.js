@@ -74,7 +74,7 @@ export default function DetailsBox() {
             </div>
           </div>
         </div>
-        <div className="boxes">
+        <div className="boxes mt-3 mb-4">
           {BoxArray.map((b) => (
             <div
               className={`details ${

@@ -445,7 +445,6 @@ button.btn.btn-danger {
 .boxes {
   display: flex;
   gap: 1rem;
-  margin: 1.5rem 0;
   border-bottom: 1px solid rgb(231, 231, 231);
 }
 
