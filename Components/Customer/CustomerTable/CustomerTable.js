@@ -32,7 +32,7 @@ export default function CustomerTable() {
     setData(newData);
     toggle();
   };
-
+  
   const [data, setData] = useState([
     {
       id: 1,

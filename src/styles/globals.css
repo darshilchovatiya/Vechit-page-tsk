@@ -420,6 +420,7 @@ button.dropdown-item {
 button.btn.btn-dark.search {
   width: 100px;
   height: 35px;
+  background: black;
 }
 
 

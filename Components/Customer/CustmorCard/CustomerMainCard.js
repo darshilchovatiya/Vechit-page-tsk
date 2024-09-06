@@ -18,7 +18,7 @@ export default function CustomerMainCard({ direction = "down", ...args }) {
     setDropdownOpen(false);
     toggleDropdown();
   };
-
+  
   return (
     <>
       <div className="customer">
