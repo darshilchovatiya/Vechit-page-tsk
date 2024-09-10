@@ -7,8 +7,7 @@ import ModalPage from "../../Modal/ModalPage";
 
 const customStyles = {
   rows: {
-    style: {
-    },
+    style: {},
   },
   headCells: {
     style: {
@@ -110,7 +109,7 @@ export default function TotalPriceTrans() {
       name: "Action",
       selector: (row) => (
         <div className="actionbtn">
-          <div onClick={() => router.push("/customer/CustomerDetailsPage")}>
+          <div onClick={() => router.push("/customer/customerdetailspage")}>
             <Button color="primary p-0">
               <Icon icon="ic:outline-edit" />
             </Button>
@@ -1977,7 +1976,7 @@ export default function TotalPriceTrans() {
           />
         </CardBody>
       </Card>
-      
+
       <ModalPage rowDelete={rowDelete} modal={modal} toggle={toggle} />
     </>
   );

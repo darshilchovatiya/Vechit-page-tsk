@@ -7,7 +7,12 @@ import {
   Button,
 } from "reactstrap";
 
-export default function CustomerMainCard({ direction = "down", ...args }) {
+export default function CustomerMainCard({
+  searchQuery,
+  setSearchQuery,
+  direction,
+  args,
+}) {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [selectedItem, setSelectedItem] = useState("All");
 
@@ -18,7 +23,7 @@ export default function CustomerMainCard({ direction = "down", ...args }) {
     setDropdownOpen(false);
     toggleDropdown();
   };
-  
+
   return (
     <>
       <div className="customer">
@@ -42,6 +47,8 @@ export default function CustomerMainCard({ direction = "down", ...args }) {
               name="search"
               placeholder="customer name"
               type="text"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
               className="form-control"
               fdprocessedid="3m654q"
             />

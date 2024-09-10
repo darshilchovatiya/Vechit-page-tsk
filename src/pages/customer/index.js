@@ -6,7 +6,7 @@ export default function customer() {
   return (
     <>
       <LayoutMain>
-        <CustomerMainCard/>
+        {/* <CustomerMainCard/> */}
         <CustomerTable />
       </LayoutMain> 
     </>

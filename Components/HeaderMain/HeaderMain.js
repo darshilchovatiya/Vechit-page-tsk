@@ -1,12 +1,52 @@
 import { Icon } from "@iconify/react";
+import { useRouter } from "next/router";
+import { useState } from "react";
 import {
   DropdownItem,
   DropdownMenu,
   DropdownToggle,
-  UncontrolledDropdown
+  UncontrolledDropdown,
 } from "reactstrap";
 
 export default function HeaderMain() {
+  const router = useRouter();
+  const [isFullscreen, setIsFullscreen] = useState(false);
+
+  const enterFullscreen = () => {
+    const elem = document.documentElement;
+    if (elem.requestFullscreen) {
+      elem.requestFullscreen();
+    } else if (elem.mozRequestFullScreen) {
+      elem.mozRequestFullScreen();
+    } else if (elem.webkitRequestFullscreen) {
+      elem.webkitRequestFullscreen();
+    } else if (elem.msRequestFullscreen) {
+      elem.msRequestFullscreen();
+    }
+    setIsFullscreen(true);
+  };
+
+  const exitFullscreen = () => {
+    if (document.exitFullscreen) {
+      document.exitFullscreen();
+    } else if (document.mozCancelFullScreen) {
+      document.mozCancelFullScreen();
+    } else if (document.webkitExitFullscreen) {
+      document.webkitExitFullscreen();
+    } else if (document.msExitFullscreen) {
+      document.msExitFullscreen();
+    }
+    setIsFullscreen(false);
+  };
+
+  const toggleFullscreen = () => {
+    if (!isFullscreen) {
+      enterFullscreen();
+    } else {
+      exitFullscreen();
+    }
+  };
+
   return (
     <div className="app-header">
       <div className="logo">
@@ -31,7 +71,7 @@ export default function HeaderMain() {
             <span className="notif-icon">
               <Icon icon="material-symbols-light:notifications-unread-outline-sharp" />
             </span>
-            <span className="fullscreen-icon">
+            <span className="fullscreen-icon" onClick={toggleFullscreen}>
               <Icon icon="material-symbols-light:fullscreen" />
             </span>
           </div>
@@ -42,9 +82,12 @@ export default function HeaderMain() {
               <DropdownToggle color="white">
                 <img src="/userProfile.jpeg"></img>
               </DropdownToggle>
-              <DropdownMenu  color="white">
-                <DropdownItem className="pro" >
-                  <div className="line1">
+              <DropdownMenu color="white">
+                <DropdownItem className="pro">
+                  <div
+                    className="line1"
+                    onClick={() => router.push("/updateprofile")}
+                  >
                     <div className="proicon">
                       <Icon icon="iconamoon:profile-circle" />
                     </div>

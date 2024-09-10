@@ -8,7 +8,6 @@ import ModalPage from "../../Modal/ModalPage";
 const customStyles = {
   rows: {
     style: {
-      // minHeight: "55px",
     },
   },
   headCells: {
@@ -16,7 +15,6 @@ const customStyles = {
       border: "1px solid #ededed",
       color: "gray",
       backgroundColor: "#f8f9fb",
-      // fontWeight: "700",
     },
   },
   cells: {
@@ -68,7 +66,7 @@ export default function SettingPages() {
       name: "Action",
       selector: (row) => (
         <div className="actionbtn">
-          <div onClick={() => router.push("/customer/123")}>
+          <div onClick={() => router.push("/customer/customerdetailspage")}>
             <Button color="primary p-0">
               <Icon icon="ic:outline-edit" height={15} width={15} />
             </Button>

@@ -5,7 +5,7 @@ export const BoxArray = [
   {
     id: 1,
     name: "Customer Details",
-    route: "/customer/CustomerDetailsPage",
+    route: "/customer/customerdetailspage",
   },
   {
     id: 2,

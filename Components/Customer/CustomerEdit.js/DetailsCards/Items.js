@@ -100,7 +100,7 @@ export default function Items() {
       name: "Action",
       selector: (row) => (
         <div className="actionbtn">
-          <div onClick={() => router.push("/customerdetailspage")}>
+          <div onClick={() => router.push("/customer/cutomerdetailspage")}>
             <Button color="primary p-0">
               <Icon icon="ic:outline-edit" height={15} width={15} />
             </Button>

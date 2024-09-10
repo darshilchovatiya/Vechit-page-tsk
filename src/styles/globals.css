@@ -39,7 +39,7 @@
 }
 
 input#search {
-  height: 35px;
+  height: 32px;
 }
 
 .form-control {
@@ -89,6 +89,10 @@ input#search {
   height: 45px;
   width: 70px;
   justify-content: space-between;
+}
+
+.fullscreen-icon {
+  cursor: pointer;
 }
 
 .profile {
@@ -655,4 +659,32 @@ button.btn.btn-dark.\33 {
 button.btn.btn-danger.\32 {
   height: 38px;
   width: 75px;
+}
+
+
+/* addd page  */
+
+button.btn.btn-danger.\35 {
+  width: 90px;
+  height: 38px;
+}
+
+button.btn.btn-secondary.\35 {
+  width: 90px;
+  height: 38px;
+}
+
+button.btn.btn-secondary.p-0 {
+  height: 35px;
+  width: 38px;
+}
+
+button.btn.btn-primary.\36 {
+  height: 35px;
+  width: 80px;
+}
+
+button.btn.btn-danger.\36 {
+  height: 35px;
+  width: 80px;
 }

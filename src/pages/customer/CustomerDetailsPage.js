@@ -3,7 +3,7 @@ import LayoutMain from "../../../Components/LayoutMain/LayoutMain";
 import DetailsBox from "../../../Components/Customer/CustomerEdit.js/EditButtonTopCard/DetailsBox";
 import CustomerDetails from "../../../Components/Customer/CustomerEdit.js/DetailsCards/CustomerDetails";
 
-export default function CustomerDetailsPage() {
+export default function customerdetailspage() {
   return (
     <LayoutMain>
       <DetailsBox />

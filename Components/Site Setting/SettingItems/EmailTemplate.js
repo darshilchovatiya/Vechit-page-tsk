@@ -64,7 +64,7 @@ const rowDelete = () => {
       name: "Action",
       selector: (row) => (
         <div className="actionbtn">
-          <div onClick={() => router.push("/customer/123")}>
+          <div onClick={() => router.push("/customer/customerdetailspage")}>
             <Button color="primary p-0">
               <Icon icon="ic:outline-edit" height={15} width={15} />
             </Button>

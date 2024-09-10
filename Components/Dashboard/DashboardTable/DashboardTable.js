@@ -276,7 +276,7 @@ export default function DashboardTable() {
       selector: (row) => (
         <div
           className="actionbtn"
-          onClick={() => router.push("/customer/CustomerDetailsPage")}
+          onClick={() => router.push("/customer/customerdetailspage")}
         >
           <Button color="primary p-0">
             <Icon icon="ic:outline-edit" height={20} width={20} />
