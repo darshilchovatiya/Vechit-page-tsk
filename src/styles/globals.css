@@ -109,12 +109,21 @@ input#search {
     border-radius: 50%;
   }
 
+  button.btn.btn-white {
+    display: flex;
+    gap: 1rem;
+  }
+  .position {
+    float: left;
+}
+
   .name {
     font-weight: 600;
   }
 
   .profile-text {
     line-height: 16px;
+    font-size: 13px;
   }
 
   button.pro.dropdown-item {
@@ -658,7 +667,7 @@ button.btn.btn-dark.\33 {
 /* modal page  */
 button.btn.btn-danger.\32 {
   height: 38px;
-  width: 75px;
+  width: 80px;
 }
 
 

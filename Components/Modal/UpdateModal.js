@@ -16,13 +16,18 @@ export default function UpdateModal({
   toggleUpdateModal,
   updateModalOpen,
   handleEditButtonClick,
-  Customer = {},
+  handleAddCustomer,
+  handleInputChange,
+  newCustomer = {},
+  formData = {},
+  type,
 }) {
+  console.log("type", type);
   return (
     <Modal isOpen={updateModalOpen} toggle={toggleUpdateModal} centered>
       <ModalBody>
         <CardSubtitle className="mb-4" tag="h5">
-          Update Customer
+          {type === "add" ? "Add Customer" : "Update Customer"}
         </CardSubtitle>
 
         <Form onSubmit={handleUpdateCustomer}>
@@ -32,9 +37,13 @@ export default function UpdateModal({
               type="text"
               name="firstname"
               id="firstname"
-              value={Customer.firstname}
-              onChange={handleUpdateInputChange}
-              required="true"
+              value={
+                type === "add" ? newCustomer.firstname : formData.firstname
+              }
+              onChange={
+                type === "add" ? handleInputChange : handleUpdateInputChange
+              }
+              required
             />
           </FormGroup>
           <FormGroup>
@@ -43,8 +52,10 @@ export default function UpdateModal({
               type="text"
               name="lastname"
               id="lastname"
-              value={Customer.lastname}
-              onChange={handleUpdateInputChange}
+              value={type === "add" ? newCustomer.lastname : formData.lastname}
+              onChange={
+                type === "add" ? handleInputChange : handleUpdateInputChange
+              }
               required
             />
           </FormGroup>
@@ -54,8 +65,12 @@ export default function UpdateModal({
               type="number"
               name="countrycode"
               id="countrycode"
-              value={Customer.countrycode}
-              onChange={handleUpdateInputChange}
+              value={
+                type === "add" ? newCustomer.countrycode : formData.countrycode
+              }
+              onChange={
+                type === "add" ? handleInputChange : handleUpdateInputChange
+              }
               required
             />
           </FormGroup>
@@ -65,8 +80,12 @@ export default function UpdateModal({
               type="number"
               name="phonenumber"
               id="phonenumber"
-              value={Customer.phonenumber}
-              onChange={handleUpdateInputChange}
+              value={
+                type === "add" ? newCustomer.phonenumber : formData.phonenumber
+              }
+              onChange={
+                type === "add" ? handleInputChange : handleUpdateInputChange
+              }
               required
             />
           </FormGroup>
@@ -76,8 +95,10 @@ export default function UpdateModal({
               type="email"
               name="email"
               id="email"
-              value={Customer.email}
-              onChange={handleUpdateInputChange}
+              value={type === "add" ? newCustomer.email : formData.email}
+              onChange={
+                type === "add" ? handleInputChange : handleUpdateInputChange
+              }
               required
             />
           </FormGroup>
@@ -87,8 +108,14 @@ export default function UpdateModal({
               type="date"
               name="registrationdate"
               id="registrationdate"
-              value={Customer.registrationdate}
-              onChange={handleUpdateInputChange}
+              value={
+                type === "add"
+                  ? newCustomer.registrationdate
+                  : formData.registrationdate
+              }
+              onChange={
+                type === "add" ? handleInputChange : handleUpdateInputChange
+              }
               required
             />
           </FormGroup>
@@ -98,17 +125,28 @@ export default function UpdateModal({
               type="date"
               name="logindate"
               id="logindate"
-              value={Customer.logindate}
-              onChange={handleUpdateInputChange}
+              value={
+                type === "add" ? newCustomer.logindate : formData.logindate
+              }
+              onChange={
+                type === "add" ? handleInputChange : handleUpdateInputChange
+              }
               required
             />
           </FormGroup>
         </Form>
       </ModalBody>
       <ModalFooter>
-        <Button color="primary 6" onClick={handleUpdateCustomer}>
-          Update
-        </Button>
+        {type === "add" ? (
+          <Button color="primary 6" onClick={handleAddCustomer}>
+            Add
+          </Button>
+        ) : (
+          <Button color="primary 6" onClick={handleUpdateCustomer}>
+            Update
+          </Button>
+        )}
+
         <Button color="danger 6" onClick={handleEditButtonClick}>
           Cancel
         </Button>

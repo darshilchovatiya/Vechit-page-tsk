@@ -3,10 +3,9 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import DataTable from "react-data-table-component";
 import { Badge, Button, Card, CardBody } from "reactstrap";
-import CustomerMainCard from "../CustmorCard/CustomerMainCard";
-import AddModal from "../../Modal/AddModal";
-import UpdateModal from "../../Modal/UpdateModal";
 import ModalPage from "../../Modal/ModalPage";
+import UpdateModal from "../../Modal/UpdateModal";
+import CustomerMainCard from "../CustmorCard/CustomerMainCard";
 
 const customStyles = {
   headCells: {
@@ -32,107 +31,108 @@ export default function CustomerTable() {
   const [selectedId, setSelectedId] = useState(null);
   const toggle = () => setModal(!modal);
   const [searchQuery, setSearchQuery] = useState("");
+  const [type, setType] = useState("");
 
   const [data, setData] = useState([
     {
       id: 1,
       firstname: "Darshil",
       lastname: "Chovatiya",
-      countrycode: "+44",
+      countrycode: "44",
       phonenumber: "9662649473",
       email: "darshil@milantahriol.com",
-      registrationdate: "14-08-2024 ",
-      logindate: "28-08-2024  ",
+      registrationdate: "2024-08-12",
+      logindate: "2024-08-28",
     },
     {
       id: 2,
       firstname: "Meet",
       lastname: "Hint",
-      countrycode: "+44",
+      countrycode: "44",
       phonenumber: "8662649473",
       email: "meet@milantahriol.com",
-      registrationdate: "14-08-2024 ",
-      logindate: "28-08-2024  ",
+      registrationdate: "2024-08-12",
+      logindate: "2024-08-28",
     },
     {
       id: 3,
       firstname: "Heli",
       lastname: "Keyli",
-      countrycode: "+44",
+      countrycode: "44",
       phonenumber: "7658649473",
       email: "heli@milantahriol.com",
-      registrationdate: "14-08-2024 ",
-      logindate: "28-08-2024 ",
+      registrationdate: "2024-08-12",
+      logindate: "2024-08-28",
     },
     {
       id: 4,
       firstname: "Deny",
       lastname: "Liyer",
-      countrycode: "+44",
+      countrycode: "44",
       phonenumber: "6612649473",
       email: "deny@milantahriol.com",
-      registrationdate: "14-08-2024 ",
-      logindate: "28-08-2024 ",
+      registrationdate: "2024-08-12",
+      logindate: "2024-08-28",
     },
     {
       id: 5,
       firstname: "Jaily",
       lastname: "Kivhb",
-      countrycode: "+44",
+      countrycode: "44",
       phonenumber: "8669469473",
       email: "jaily@milantahriol.com",
-      registrationdate: "14-08-2024",
-      logindate: "28-08-2024 ",
+      registrationdate: "2024-08-12",
+      logindate: "2024-08-28",
     },
     {
       id: 6,
       firstname: "Jink",
       lastname: "Tya",
-      countrycode: "+44",
+      countrycode: "44",
       phonenumber: "5651649473",
       email: "jink@milantahriol.com",
-      registrationdate: "14-08-2024",
-      logindate: "28-08-2024",
+      registrationdate: "2024-08-12",
+      logindate: "2024-08-28",
     },
     {
       id: 7,
       firstname: "Hil",
       lastname: "Kess",
-      countrycode: "+44",
+      countrycode: "44",
       phonenumber: "6362649473",
       email: "hil@milantahriol.com",
-      registrationdate: "14-08-2024 ",
-      logindate: "28-08-2024",
+      registrationdate: "2024-08-12",
+      logindate: "2024-08-28",
     },
     {
       id: 8,
       firstname: "kalw",
       lastname: "fash",
-      countrycode: "+44",
+      countrycode: "44",
       phonenumber: "7162649473",
       email: "kalw@milantahriol.com",
-      registrationdate: "14-08-2024",
-      logindate: "28-08-2024",
+      registrationdate: "2024-08-12",
+      logindate: "2024-08-28",
     },
     {
       id: 9,
       firstname: "Gisy",
       lastname: "Ktiya",
-      countrycode: "+44",
+      countrycode: "44",
       phonenumber: "9662649473",
       email: "Gisy@milantahriol.com",
-      registrationdate: "14-08-2024 ",
-      logindate: "28-08-2024 ",
+      registrationdate: "2024-08-12",
+      logindate: "2024-08-28",
     },
     {
       id: 10,
       firstname: "Jhil",
       lastname: "Fail",
-      countrycode: "+44",
+      countrycode: "44",
       phonenumber: "6932649473",
       email: "jhil@milantahriol.com",
-      registrationdate: "14-08-2024",
-      logindate: "28-08-2024 ",
+      registrationdate: "2024-08-12",
+      logindate: "2024-08-28",
     },
   ]);
 
@@ -216,8 +216,9 @@ export default function CustomerTable() {
             <Button
               color="secondary p-0"
               onClick={() => {
+                setType("add");
                 setSelectedId(row.id);
-                toggleAddModal();
+                toggleUpdateModal();
               }}
             >
               <Icon icon="material-symbols:add" width="1rem" height="1rem" />
@@ -227,7 +228,9 @@ export default function CustomerTable() {
           <Button
             color="primary p-0"
             onClick={() => {
+              setType("update");
               setSelectedId(row.id);
+              setFormData(row);
               toggleUpdateModal();
             }}
           >
@@ -282,9 +285,6 @@ export default function CustomerTable() {
 
   // add new data
 
-  const [addModalOpen, setAddModalOpen] = useState(false);
-  const toggleAddModal = () => setAddModalOpen(!addModalOpen);
-
   const [newCustomer, setNewCustomer] = useState({
     firstname: "",
     lastname: "",
@@ -299,7 +299,7 @@ export default function CustomerTable() {
     e.preventDefault();
     const newCustomerData = { ...newCustomer, id: data.length + 1 };
     setData([...data, newCustomerData]);
-    toggleAddModal();
+    toggleUpdateModal();
   };
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -324,6 +324,11 @@ export default function CustomerTable() {
     logindate: "",
   });
 
+  const handleEditButtonClick = (row) => {
+    setSelectedId(row.id);
+    toggleUpdateModal();
+  };
+
   const handleUpdateCustomer = (e) => {
     e.preventDefault();
     const updatedData = data.map((item) =>
@@ -340,12 +345,7 @@ export default function CustomerTable() {
       [name]: value,
     });
   };
-
-  const handleEditButtonClick = (row) => {
-    setSelectedId(row.id);
-    setFormData(row);
-    toggleUpdateModal();
-  };
+  console.log(formData);
 
   // delete row
 
@@ -377,19 +377,16 @@ export default function CustomerTable() {
 
       <ModalPage rowDelete={rowDelete} modal={modal} toggle={toggle} />
 
-      <AddModal
+      <UpdateModal
         handleInputChange={handleInputChange}
         handleAddCustomer={handleAddCustomer}
-        toggleAddModal={toggleAddModal}
         setNewCustomer={setNewCustomer}
-        addModalOpen={addModalOpen}
-      />
-      <UpdateModal
+        type={type}
+        formData={formData}
         handleUpdateCustomer={handleUpdateCustomer}
         handleUpdateInputChange={handleUpdateInputChange}
         handleEditButtonClick={handleEditButtonClick}
         toggleUpdateModal={toggleUpdateModal}
-        setNewCustomer={setNewCustomer}
         updateModalOpen={updateModalOpen}
       />
     </>

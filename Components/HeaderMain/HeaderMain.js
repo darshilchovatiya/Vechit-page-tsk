@@ -77,10 +77,16 @@ export default function HeaderMain() {
           </div>
 
           {/* </div> */}
-          <div className="profile">
+          <div className="profile ">
             <UncontrolledDropdown color="white">
               <DropdownToggle color="white">
-                <img src="/userProfile.jpeg"></img>
+                <div>
+                  <img src="/userProfile.jpeg"></img>
+                </div>
+                <div className="profile-text">
+                  <div className="name">darshil Chovatiya</div>
+                  <div className="position">Admin</div>
+                </div>
               </DropdownToggle>
               <DropdownMenu color="white">
                 <DropdownItem className="pro">
@@ -105,10 +111,10 @@ export default function HeaderMain() {
               </DropdownMenu>
             </UncontrolledDropdown>
 
-            <div className="profile-text">
+            {/* <div className="profile-text">
               <div className="name">darshil Chovatiya</div>
               <div className="position">Admin</div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
