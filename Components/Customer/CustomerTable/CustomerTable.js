@@ -378,10 +378,10 @@ export default function CustomerTable() {
       <ModalPage rowDelete={rowDelete} modal={modal} toggle={toggle} />
 
       <UpdateModal
+        type={type}
         handleInputChange={handleInputChange}
         handleAddCustomer={handleAddCustomer}
         setNewCustomer={setNewCustomer}
-        type={type}
         formData={formData}
         handleUpdateCustomer={handleUpdateCustomer}
         handleUpdateInputChange={handleUpdateInputChange}

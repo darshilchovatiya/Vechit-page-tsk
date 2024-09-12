@@ -29,7 +29,6 @@ export default function UpdateModal({
         <CardSubtitle className="mb-4" tag="h5">
           {type === "add" ? "Add Customer" : "Update Customer"}
         </CardSubtitle>
-
         <Form onSubmit={handleUpdateCustomer}>
           <FormGroup>
             <Label for="firstname">First Name</Label>

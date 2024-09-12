@@ -110,11 +110,6 @@ export default function HeaderMain() {
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
-
-            {/* <div className="profile-text">
-              <div className="name">darshil Chovatiya</div>
-              <div className="position">Admin</div>
-            </div> */}
           </div>
         </div>
       </div>
